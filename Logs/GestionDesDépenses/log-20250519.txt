@@ -1,0 +1,6 @@
+2025-05-19 21:32:16.037 +01:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-19 21:32:16.075 +01:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-19 21:32:16.090 +01:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-19 21:32:16.100 +01:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-19 21:33:43.038 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-19 21:33:53.172 +01:00 [INF] HTTP POST /api/User/register responded 200 in 9963.3076 ms
