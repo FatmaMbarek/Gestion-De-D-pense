@@ -1,0 +1,17 @@
+# Ignore build and VS folders
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# Ignore build outputs
+*.dll
+*.exe
+*.pdb
+*.app
+*.appx
+
+# Ignore sensitive files
+appsettings.*.json
