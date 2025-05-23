@@ -1,0 +1,34 @@
+2025-05-22 11:00:50.979 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 11:04:17.843 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 11:04:46.015 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 11:08:51.325 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 11:29:38.914 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 11:30:47.557 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-05-22 14:37:15.888 +01:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:37:15.938 +01:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:37:15.945 +01:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:37:15.956 +01:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:38:09.594 +01:00 [WRN] '.AspNetCore.Correlation.Il9RzPEceA8taMqJScFaRdKPXWys8GWtRatN7VPK_1M' cookie not found.
+2025-05-22 14:38:09.603 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: Correlation failed.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-22 14:39:27.604 +01:00 [WRN] '.AspNetCore.Correlation.om4TlcgqKM2kG5Q6JlxgXC-5HFfk624oOUz_g33-H6I' cookie not found.
+2025-05-22 14:39:27.608 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: Correlation failed.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-22 14:49:04.326 +01:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:49:04.381 +01:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:49:04.389 +01:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-05-22 14:49:04.394 +01:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
